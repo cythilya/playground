@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useEffect, useState } from 'react';
 import './App.css';
 
@@ -19,8 +20,7 @@ const renderPhotos = (list) => {
           <img
             alt={`${PREFIX}_${comment}`}
             key={imageId}
-            src={photoUrl}
-            width={300}
+            src={photoUrl} width={300}
           />
         ))
       }
