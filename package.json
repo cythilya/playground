@@ -50,5 +50,10 @@
     "prop-types": "^15.8.1",
     "webpack": "^5.74.0"
   },
+  "lint-staged": {
+    "*.{js}": [
+      "eslint --fix"
+    ]
+  },
   "_id": "playground@0.1.0"
 }

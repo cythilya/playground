@@ -19,7 +19,8 @@ const renderPhotos = (list) => {
           <img
             alt={`${PREFIX}_${comment}`}
             key={imageId}
-            src={photoUrl} width={300}
+            src={photoUrl}
+            width={300}
           />
         ))
       }
