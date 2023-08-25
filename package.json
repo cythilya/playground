@@ -18,7 +18,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "cypress:open": "./node_modules/cypress/bin/cypress open",
-    "cypress": "./node_modules/cypress/bin/cypress run"
+    "cypress": "./node_modules/cypress/bin/cypress run",
+    "lint": "./node_modules/.bin/eslint --ext .js ./src",
+    "lint:fix": "./node_modules/.bin/eslint --fix --ext .js ./src"
   },
   "eslintConfig": {
     "extends": [
@@ -41,6 +43,8 @@
   "devDependencies": {
     "babel-plugin-named-exports-order": "^0.0.2",
     "cypress": "^10.10.0",
+    "eslint": "^8.47.0",
+    "eslint-config-airbnb": "^19.0.4",
     "prop-types": "^15.8.1",
     "webpack": "^5.74.0"
   },
