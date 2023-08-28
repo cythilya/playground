@@ -5,7 +5,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-console.log('test');
 Sentry.init({
   dsn: 'https://test12345.ingest.sentry.io/1qaz2wsx',
   integrations: [
