@@ -10,20 +10,15 @@ const renderPhotos = (list) => {
 
   return (
     <div>
-      {
-        !!list.length && list.map(({
-          comment,
-          imageId,
-          photoUrl,
-        }) => (
+      {!!list.length
+        && list.map(({ comment, imageId, photoUrl }) => (
           <img
             alt={`${PREFIX}_${comment}`}
             key={imageId}
             src={photoUrl}
             width={300}
           />
-        ))
-      }
+        ))}
     </div>
   );
 };
